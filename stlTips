@@ -1,0 +1,27 @@
+Process:
+
+1) Use Netfabb (download available here: Netfabb downloads) to clean up your STL.
+
+—
+
+2) Open up Blender and import your STL by going to the menu bar and click File > Import > STL. (Refer to this video created by Shapespeare to properly configure Blender for 3D printing: Blender Basics for 3D Printing)
+
+—
+
+3) Open Edit Mode to display the polygons of the STL by pressing Tab.
+
+—
+
+4) Convert the triangles into quads by pressing Alt+J. Quads enable us to more precisely control the subdivisions and smoothing of the model.
+
+—
+
+5) Subdivide the model by going to the Tools tab on the left panel, under Add:, click Subdivide. For this example, subdividing 3 times is sufficient.
+
+—
+
+6) Now we can smooth the vertices by going to the Tools tab again, under Deform:, click Smooth Vertex. For this particular example, smoothing the vertices 3 times is sufficient.
+
+—
+
+7) Export the STL file by going to the menu bar and clicking File > Export > STL. Now it is ready to be sliced and printed!
